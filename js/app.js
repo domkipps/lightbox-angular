@@ -8,7 +8,6 @@
 
 
     $http.get('js/data.json').success(function(data) {
-
       $scope.lightBoxOn = true;
       var lightboxData = data['data']['lightbox'];
       var duration = lightboxData['duration'];
